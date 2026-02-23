@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    width: 1000px; /* başlık genişlik ve yükseklik */
+    height: 200px;
+    margin: auto; 
+}
+#main{
+    width: 1900px;
+    height: 200px;
+    margin: auto;
+
+}
+.container{
+    width: 90%;  /* google search kutusu ilk bölümü buraya ayrılan genişlik ve yükseklik */
+    height: 50%;
+    display: block; /* nesneleri alt alta getirebilmek için block türüne çevirir */
+    margin: auto;   /* ortalama */
+    background-color: #eeeeee; /* arkaplan rengi*/
+}
+.container2{
+    width: 90%; /* searchin altındaki 3 kutudan oluşan bölüm */
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+img{
+    width: 500px; 
+    height: 200px;
+    display: block; /* imgyi block türüne çevirerek ortalamayı sağlıyor */
+    margin: auto; /* soldan ve sağdan ortalama */
+}
+.btn{
+    margin-right: 10px; /*2 kutu arasındaki boşluk*/
+    padding-left: 5px; /* kutu içeriği için padding */
+    padding-right: 5px;
+}
+.textbox{   
+    display: block; /* textboxi block türüne çevirerek ortalamayı sağlıyor */
+    margin: 10px auto;
+    width: 500px;
+}
+.textbox2{
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+}
+.box1a{
+    display: block; /*a etiketlerini alt alta yazdırmak için*/
+    text-align: center; /* a etiketlerini ortalamak için */
+    margin-top: 10px;
+}
+.box2a{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center; /* p etiketlerini ortalamak için */
+}
+
+.center{
+   /* margin: 0;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+    display: flex; /* 2 butonu yan yana ve ortalamak için */
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 601px;
+    height: 100%;
+    margin-right: 3px;
+    background-color: #7ee5da;
+    float: left; /* kutuları yan yana getirmek için float kullanılır */
+}
+.box2{
+    width: 303px;
+    height: 100%;
+    margin-right: 3px;
+    background-color: #70ccc2;
+    float: left;
+}
+.box3{
+    width: 800px;
+    height: 100%;
+    background-color: #62b3aa;
+    display: block; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.btn2{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#box3aID{
+    margin-left: 10px;
+}
